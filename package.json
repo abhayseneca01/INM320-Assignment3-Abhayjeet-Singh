@@ -1,0 +1,22 @@
+{
+  "name": "inm320-assignment3--abhayjeet-singh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+"scripts": {
+"sass": "sass --watch css/style.scss:assets/css/style.css",
+  "server": "lite-server --baseDir=.",
+  "start": "concurrently \"npm run sass\" \"npm run server\""
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "lite-server": "^2.6.1",
+    "sass": "^1.105.2"
+  }
+}
